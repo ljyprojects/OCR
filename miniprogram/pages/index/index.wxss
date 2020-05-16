@@ -1,0 +1,10 @@
+.ocr-wrapper {
+  margin: 40rpx auto;
+  width: 375rpx;
+}
+.intro {
+  margin: 40rpx;
+}
+.img {
+  margin: 30rpx auto;
+}

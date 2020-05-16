@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins":{
+    "ocr-plugin":{
+      "version":"3.0.2",
+      "provider":"wx4418e3e031e551be"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

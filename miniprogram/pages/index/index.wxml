@@ -1,0 +1,27 @@
+
+	<button style="margin-top:30rpx" type="warn" bindtap="businessLicense" class="mainBtn">上传营业执照</button>
+
+	<image class="img" wx:if="{{!businessimg}}" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589369829171&di=391c6b08b1850ef31e6acf56f3a6488e&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190222%2F0f462d915b3f470a86037782f2880b36.jpeg"></image>
+
+	<image class="img" wx:else src="{{businessimg}}"></image>
+
+	<view class="form" bindtap="{{infomation}}">
+	<view style="margin-top:20rpx">
+	<text style="font-weight: bolder;">地址：</text> <text>{{infomation.address}}</text>
+	</view>
+	<view style="margin-top:20rpx">
+	<text style="font-weight: bolder;">信用代码：</text> <text>{{infomation.regNum}}</text>
+	</view>
+	<view style="margin-top:20rpx">
+	<text style="font-weight: bolder;">法定代表人：</text> <text>{{infomation.legalRepresentative}}</text>
+	</view>
+	<view style="margin-top:20rpx">
+	<text style="font-weight: bolder;">公司名称：</text><text>{{infomation.enterpriseName}}</text>
+	</view>
+	<view style="margin-top:20rpx">
+	<text style="font-weight: bolder;">公司类型：</text><text>{{infomation.typeOfEnterprise}}</text>
+	</view>
+	<view style="margin-top:20rpx">
+	<text style="font-weight: bolder;">成立日期：</text><text>{{infomation.registeredDate}}</text>
+	</view>
+	</view>
